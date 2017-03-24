@@ -1,0 +1,18 @@
+.welcome {
+  text-align: center;
+}
+
+.welcome--intro {
+  margin: 0 0 1rem 0;
+}
+
+.welcome--login-btn {
+  border: none;
+  outline: none;
+
+  background: #5e81a8;
+  color: #fff;
+  font-size: .8rem;
+  border-radius: 5px;
+  padding: 7px 16px 8px;
+}

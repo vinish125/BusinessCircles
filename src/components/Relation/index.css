@@ -1,0 +1,59 @@
+.relation {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+  box-shadow: 0 1px 2px #999;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.relation--user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 115px;
+  margin: 0 20px;
+
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s ease-out;
+}
+
+.relation--user:first-child {
+  margin-right: 0;
+}
+.relation--user:last-child {
+  margin-left: 0;
+}
+
+.relation--user:hover {
+  color: #5e81a8;
+}
+
+.relation--avatar {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.relation--name {
+  margin: .3rem 0 0 0;
+  font-size: .85rem;
+}
+
+.relation--arrow {
+  width: 30px;
+  font-size: 30px;
+  color: #999;
+
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

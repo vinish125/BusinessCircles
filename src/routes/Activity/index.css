@@ -1,0 +1,13 @@
+.results {
+  width: 100%;
+  text-align: center;
+}
+
+.results--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results--header > span {
+  margin: 0 10px;
+}

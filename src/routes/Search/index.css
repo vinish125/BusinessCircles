@@ -1,0 +1,35 @@
+.search {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.search--form {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.search--input {
+  flex-grow: 1;
+  font-family: inherit;
+  font-size: .8rem;
+  padding: 7px 16px 8px;
+  border: 1px solid #EEE;
+  border-right: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search--submit {
+  border: none;
+  outline: none;
+
+  width: 100px;
+  padding: 7px 16px 8px;
+  background: #5e81a8;
+  color: #fff;
+  font-family: inherit;
+  font-size: .8rem;
+  border-radius: 0 5px 5px 0;
+  padding: 7px 16px 8px;
+}
